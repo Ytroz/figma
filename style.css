@@ -10,7 +10,7 @@
 nav{
     display: flex;
     flex-direction: row;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0 0;   
     /* border: 1px solid red; */
     align-items: center;
 }
@@ -104,7 +104,7 @@ button {
     color: rgb(5, 83, 119);
   }
   .original {
-    /* width: 100%; */
+    width: 100%;
     /* border: 2px solid yellow; */
     display: flex;
     flex-wrap: wrap;
@@ -218,9 +218,9 @@ button {
     line-height: 35px;
     
   }
-  .get{
-    font-weight: 30px;
-    font-size: x-large;
+   footer.get{
+    font-weight: 20px;
+    font-size: larger;
     margin-left: 15%;
     margin-top: 5%;
     width: 100%;
@@ -229,11 +229,11 @@ button {
   .no{
   /* border: 3px solid orangered; */
   border-radius: 5px;
-  width: 100%;
+   width: 100%; 
   background-color:#fff;
   color:rgb(4, 35, 56);
-  font-weight: 600;
-  font-size: x-large;
+  font-weight: 500;
+  font-size: large;
   /* margin-left: 13%; */
   padding-left: 40px;
   }
@@ -318,6 +318,23 @@ button {
   @media screen and (max-width:768px) {
     .second{
      flex-direction: column;
+     width: 100%;
+     /* text-align: center; */
+     
+    }
+    .second button{
+      /* margin: auto; */
+      /* margin-left: 40%; */
+      width: 80%;
+      height: 10%;
+    }
+    nav{
+      flex-direction: column;
+      width: 0%;
+      text-align: center;
+      align-items: center;
+      padding: 0%;
+      margin: none;
     }
 
     .original{
@@ -326,10 +343,58 @@ button {
       padding: 0 auto;
       margin: 0 auto;
       text-align: center;
+      align-items: center;
     }
     footer{
       flex-direction: column;
+      align-items: center;
      text-align: center;
+      width: 100%;
+    }
+    footer .first{
+      border-right: 0;
+      text-align: center;
+    }
+    
+    footer .fifth{
+      flex-direction: column;
+      width: 20%;
+    }
+    footer .no{
+      width: 100%;
+       /* border: 3px solid orangered; */
+  border-radius: 5px;
+  width: 100%;
+  background-color:#fff;
+  color:rgb(4, 35, 56);
+  font-weight: 500;
+  font-size: small;
+  /* margin-left: 13%; */
+  padding-left: 40px;
+    }
+    .get{
+        /* font-weight: 30px; */
+        /* font-size: x-large; */
+        /* margin-left: 15%; */
+        margin-top: 5%;
+        width: 100%;
+        margin-right: 60%;
+      
+    }
+    .web{
+      width: 80%;
+    }
+    .locate{
+      text-align: center;
+      margin-left: 40%;
+    }
+    .follow{
+      margin-left: 10%;
+    }
+    .asses{
+      width: 90%;
+    }
+    .pages{
       width: 100%;
     }
   }
